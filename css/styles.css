@@ -3,7 +3,16 @@ color: #555555;
 text-align: center;
 }
 
+form{
+    text-align: center;
+}
+
+.ingresar {
+    border-radius: 40px;
+    
+}
 .button{
     background-color: #B8EEFF;
     border-radius: 40px;
+    color:#555555
 }
