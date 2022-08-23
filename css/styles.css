@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(240, 240, 240);
+    background-color: #fafafa;
+
 }
 
 /*Layouts*/
@@ -72,11 +73,12 @@ p{
 
 }
 .bigbutton{
-    background-color: #3FADCF;
+    background-color: rgba(63, 173, 207,0.6);
     border-radius: 40px;
     border: 0px;
     height: 538px;
     width: 302px;
+    
     
 }
 .mainbutton{
