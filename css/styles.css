@@ -1,15 +1,48 @@
+/*Layouts*/
+.autoLayoutIS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 122px 362px;
+    gap: 63px;
+
+    position: relative;
+    
+}
+
+
+
+
 /*Textos*/
 h1 {
-color: #555555;
-text-align: center;
+    font-family: Arial, sans-serif;
+    color: #555555;
+    
 }
 p{
-    font-size: 17px;
+    font-family: Arial, sans-serif;
+    color: #555555;
+}
+.links{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: blue;
 }
 
 form{
     text-align: center;
-      
+    margin: auto;
+}
+.formimage{
+    position: absolute;
+width: 834px;
+height: 728px;
+left: 303px;
+top: 95px;
+
+background: #ffffff;
+border-radius: 40px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .ingresar {
@@ -20,23 +53,38 @@ form{
     
 }
 
+
+
+
+
+
+
 /*Botones*/
 .minibutton{
     background-color: #B8EEFF;
-    border-radius: 40px;
+    border-radius: 30px;
     color:#555555;
     border: 0px;
-    padding: 13px 40px;
-    font-size: 17px;
-    
+    width: 172px;
+    height: 54px;
+    font-size: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 .bigbutton{
-    background-color: #B8EEFF;
+    background-color: #3FADCF;
     border-radius: 40px;
     border: 0px;
-    height: 300px;
-    width: 200px;
-
+    height: 538px;
+    width: 302px;
+    
+}
+.mainbutton{
+    background-color: #3FADCF;
+    border-radius: 40px;
+    border: 0px;
+    height: 538px;
+    width: 302px;
     
 }
 
