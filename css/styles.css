@@ -18,7 +18,11 @@
     
 }
 
-
+.gridd{
+    display: grid;
+    grid-column: auto auto;
+    grid-row: auto auto;
+}
 
 
 /*Textos*/
@@ -31,6 +35,11 @@ p{
     font-family: Arial, sans-serif;
     color: #555555;
 }
+.text{
+    font-family: Arial, sans-serif;
+    color: #555555;
+}
+
 .links{
     font-family: Arial, sans-serif;
     font-size: 18px;
