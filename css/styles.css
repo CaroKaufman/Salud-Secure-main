@@ -1,6 +1,9 @@
-body{
+#ISbody{
     background-color: rgba(184, 238, 255, 0.5);
 
+}
+#MPbody{
+    background-color: white;
 }
 
 /*Layouts*/
@@ -46,6 +49,12 @@ p{
 
 }
 
+#mainMenuform{
+    text-align: center;
+}
+
+
+
 .ingresar {
     border-radius: 40px;
     border: 2px solid #3FADCF;
@@ -76,14 +85,14 @@ p{
     background-color: rgba(63, 173, 207,0.6);
     border-radius: 40px;
     border: 0px;
-    height: 522px;
-    width: 300px;
+    height: 422px;
+    width: 220px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    margin: 30px;
+    margin: 20px;
     
 }
 #btnPacientes{
-    background-image: url("../imagenes/Usuario\ Paciente.png");
+   background-image: url("../imagenes/UsuPaciente-1.png");
     background-position: center;
     
 }
@@ -91,8 +100,8 @@ p{
     background-color: #3FADCF;
     border-radius: 40px;
     border: 0px;
-    height: 694px;
-    width: 406px;
+    height: 584px;
+    width: 306px;
     
 }
 
