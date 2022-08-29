@@ -122,7 +122,7 @@ p{
     background-position-y: 20%;
 }
 
-.bigbutton{
+.sobrenosotrosBTN{
     background-color: rgba(63, 173, 207,0.6);
     border-radius: 40px;
     border: 0px;
@@ -139,7 +139,7 @@ p{
     background-position: center;
     
 }
-#mainbutton{
+#mainbuttonM{
     background-color: #3FADCF;
     border-radius: 40px;
     border: 0px;
@@ -147,9 +147,10 @@ p{
     width: 306px;
     color: white;
     font-size: 18px;
+    
     background-image: url("../imagenes/Receta.png");
     background-position: center;
-    background-position-y: 90%;
+    background-position-y: 100%;
     background-size: 400px 400px;
     background-repeat: no-repeat;
     cursor: pointer;
