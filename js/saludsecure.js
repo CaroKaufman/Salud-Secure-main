@@ -98,16 +98,13 @@ $("#RegistrarPac").click(function(){
         });
 });
 
-    $("#RegistrarPac").mouseover(function(){                                                   
-        $(".minibutton").css("cursor","pointer");                                            
-    });
+    
 //finaliza aca
 
 
-//LogIn del Medico
-$("#divt").hide();                                                                                                          
+//LogIn del Medico                                                                                                        
     $("#LogInMed").mouseover(function(){                                                                                    		                                                                                        
-    	$(".minibutton").css("cursor","pointer");                                                                                
+    	                                                                               
                                                                                                                             
                                                                                                                             
         if($("#q").val()=='' && $("#c").val()==''){
@@ -146,13 +143,13 @@ $("#divt").hide();
                     else if(data.status == 'ok'){
                         mensaje="Bienvenido: "+data.result['nombre']+" "+data.result['apellido']+"";
                         $("#divt").html(mensaje);
-                        window.location.replace('../html/pantallaprincipal_doc.html');
+                        window.location.replace('../Menu Principal/MenuPrincipal_M.html');
                         $("#divt").show();
                         
                     }
                     else{
                         mensaje="Usuario no encontrado, si desea registrarse haga click ";
-                        mensaje+="<a href='../html/registrar_doc.html' /a>aqui.";                                               
+                        mensaje+="<a href='../Registrarse/Registrarse_M.html' /a>aqui.";                                               
                         $("#divt").html(mensaje);
                         $("#divt").show();
                     }
