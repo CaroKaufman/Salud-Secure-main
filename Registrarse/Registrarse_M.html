@@ -3,25 +3,41 @@
 <head>
    
     <title>Registrarse</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles_Buttons.css">
+    <link rel="stylesheet" href="../css/styles_Layout.css">
 </head>
-<body>
-    <form>
+<body class="Rbody">
+    <div id="registerformM" class="container">
         <h1>Crear Cuenta Medica</h1>
-        <input class = ingresar name= "Crear_Usu" placeholder="Ingresar DNI" />
-        <br><br>
-        <input class= ingresar id="NomMed" placeholder="Nombre real" />
-        <br><br>
-        <input class= ingresar id="ApeMed" placeholder="Apellido real" />
-        <br><br>
-        <input class= ingresar name= "Aream" id="AreaMed" placeholder="Area medica" />
-        <br><br>
-        <input class= ingresar name= "Telefonom" id="teleMed" placeholder="Telefono" />
-        <br><br>
-        <input class= ingresar type= "password" name= "Crear_Contra" placeholder="Crea una contrasenia" />
-        <br><br>
-        <input type= "submit" class="minibutton" name= "Registrarse" value="Crear cuenta"/>
+
+        <div class="ingresarCol1">
+
+            <input class= ingresarR id="NomMed" placeholder="Nombre real" />
+            <br><br>
+            <input class= ingresarR name= "Aream" id="AreaMed" placeholder="Area medica" />
+            <br><br>
+            <input class = ingresarR name= "Crear_Usu" placeholder="Ingresar DNI" />
+            <br><br>
+            <input class= ingresarR type= "password" name= "Crear_Contra" placeholder="Crea una contrasenia" />
+
+            <div id="minibuttonPosition">
+                <input type= "submit" class="minibutton" name= "Registrarse" value="Crear cuenta"/>
+            </div>
+
+        </div>
+            
+
+        <div class="ingresarCol2">
+            <input class= ingresarR id="ApeMed" placeholder="Apellido real" />
+            <br><br>
+            <input class= ingresarR name= "Telefonom" id="teleMed" placeholder="Telefono" />
+            <br><br>
+            
+        </div>
+
         
-    </form>
+        
+        
+    </div>
 </body>
 </html>

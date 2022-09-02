@@ -37,6 +37,20 @@ p{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+#registerformM{
+    position: absolute;
+    left:30%;
+    top:15%;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+    background-image: url("../imagenes/FondoForm.png");
+    background-position: center;
+    border-radius: 40px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
 #loginformP{
     width: 400px;
     height: 350px;
@@ -48,6 +62,7 @@ p{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+
 
 #mainMenuform{
     text-align: center;
@@ -61,6 +76,13 @@ p{
     padding: 10px 30px;
     font-size: 18px;
     
+}
+.ingresarR {
+    border-radius: 40px;
+    border: 2px solid #3FADCF;
+    padding: 10px 30px;
+    font-size: 18px;
+    width: 150px;
 }
 
 
@@ -144,12 +166,24 @@ p{
     margin: 20px;
     color: white;
     font-size: 18px;
-    
+    background-image: url("../imagenes/Black_question_mark.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
     
 }
 #btnPacientes{
-   background-image: url("../imagenes/UsuPaciente-1.png");
-    background-position: center;
+    background-color: rgba(63, 173, 207,0.6);
+    border-radius: 40px;
+    border: 0px;
+    height: 422px;
+    width: 220px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    color: white;
+    font-size: 18px;
+    background-image: url("../imagenes/UsuPaciente-1.png");
+    background-repeat: no-repeat;
     
 }
 #mainbuttonM{
@@ -160,7 +194,7 @@ p{
     width: 306px;
     color: white;
     font-size: 18px;
-    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     background-image: url("../imagenes/Receta.png");
     background-position: center;
     background-position-y: 100%;
