@@ -14,6 +14,26 @@
 }
 
 /*Layouts*/
+#mainMenuform{
+    
+    
+    
+}
+#BtnSobreNos{
+    position: absolute;
+    top: 10%;
+    left:20%;
+}
+#BtnMain{
+    position: absolute;
+    top: 5%;
+    left:40%;
+}
+#BtnpacLayout{
+    position: absolute;
+    top: 10%;
+    left:80%;
+}
 .autoLayoutIS{
     display: flex;
     flex-direction: column;
@@ -23,6 +43,10 @@
 
     position: relative;
     
+}
+.titleLayout{
+    position: absolute;
+    left: 41%
 }
 
 .container{
