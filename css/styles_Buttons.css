@@ -2,7 +2,7 @@
 /*Textos*/
 h1 {
     font-family: Arial, sans-serif;
-    color: #555555;
+    color: #222222;
     text-align: center;
     
 }
@@ -16,7 +16,7 @@ p{
 }
 .title{
     font-family: Arial, sans-serif;
-    color: #555555;
+    color: #222222;
     font-size: 20px;
 }
 
@@ -66,10 +66,8 @@ p{
 
 #mainMenuform{
     position: absolute;
-    top: 10%;
+    top: 20%;
     left:20%
-    
-
 }
 
 
@@ -99,7 +97,8 @@ p{
 .minibutton{
     background-color: #B8EEFF;
     border-radius: 30px;
-    color:#555555;
+    color: #222222;
+
     border: 0px;
     width: 172px;
     height: 54px;
@@ -161,7 +160,7 @@ p{
 }
 
 .bigBTN{
-    background-color: rgba(63, 173, 207,0.6);
+    background-color: rgba(63, 173, 207);
     border-radius: 40px;
     border: 0px;
     height: 410px;
@@ -177,7 +176,7 @@ p{
     background-size: 208px 410px;
 }
 #btnPacientes{
-    background-color: rgba(63, 173, 207,0.6);
+    background-color: rgba(63, 173, 207);
     border-radius: 40px;
     border: 0px;
     height: 410px;
@@ -186,24 +185,23 @@ p{
     margin: 20px;
     color: white;
     font-size: 18px;
-    background-image: url("../imagenes/UsuPaciente-1.png");
+    background-image: url("../imagenes/MisPacientes.png");
     background-repeat: no-repeat;
     background-size: 208px 410px;
     
 }
 #mainbuttonM{
-    background-color: #3FADCF;
+    background-color: #4A4EB5;
     border-radius: 40px;
     border: 0px;
-    height: 572px;
+    height: 472px;
     width: 293px;
     color: white;
     font-size: 18px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    background-image: url("../imagenes/Receta.png");
+    background-image: url("../imagenes/CrearReceta.png");
     background-position: center;
     background-position-y: 100%;
-    background-size: 400px 400px;
     background-repeat: no-repeat;
     cursor: pointer;
 }

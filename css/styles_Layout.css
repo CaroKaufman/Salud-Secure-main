@@ -7,17 +7,33 @@
 
 }
 #MPbody{
-    background-color: white;
+    background-color: rgba(245, 245, 245, 0.5);
 }
 .greyBody{
     background-color: white(247, 247, 247, 0.5);
 }
 
 /*Layouts*/
-#mainMenuform{
-    
-    
-    
+#Usuario{
+    position: absolute;
+    top:3%;
+    left: 90%;
+}
+#LogOut{
+    position: absolute;
+    top:3%;
+    left: 77%;
+}
+
+
+
+
+
+.header{
+  padding: 40px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #BtnSobreNos{
     position: absolute;
@@ -44,9 +60,10 @@
     position: relative;
     
 }
-.titleLayout{
+#titleLayout{
     position: absolute;
-    left: 41%
+    left: 41%;
+    top: 1%
 }
 
 .container{
