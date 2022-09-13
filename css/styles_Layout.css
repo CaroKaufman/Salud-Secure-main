@@ -14,6 +14,7 @@
 }
 
 /*Layouts*/
+<<<<<<< Updated upstream
 #Usuario{
     position: absolute;
     top:3%;
@@ -49,7 +50,12 @@
     position: absolute;
     top: 10%;
     left:80%;
+=======
+header{
+    background-color: blueviolet;
+>>>>>>> Stashed changes
 }
+
 .autoLayoutIS{
     display: flex;
     flex-direction: column;
