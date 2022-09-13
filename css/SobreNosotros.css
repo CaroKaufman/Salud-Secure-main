@@ -1,0 +1,38 @@
+.header{
+    padding: 15px;
+    background-color: seagreen;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+label{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+
+#position1{
+    position: absolute;
+    left:10%;
+    top:25%
+}
+#IMGsalud{
+    position: absolute;
+    height: 426px;
+    width: 658px;
+    left:50%;
+    top:40%;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/IMGsalud.png);
+    background-size: 658px 426px;
+    z-index: -5;
+}
+
+
+
+
