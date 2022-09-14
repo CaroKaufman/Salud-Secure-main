@@ -41,6 +41,8 @@ label{
     
 }
 #background1{
+    position: absolute;
+    left:0%;
     margin: 0px;
     height: 620px;
     width: 1400px;
