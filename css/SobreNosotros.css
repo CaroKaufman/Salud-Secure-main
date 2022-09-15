@@ -92,6 +92,17 @@ label{
     z-index: -5;
 
 }
+#background4{
+    position: absolute;
+    left:0%;
+    top: 280%;
+    margin: 0px;
+    height: 520px;
+    width: 1400px;
+    background-color: #000000;
+    z-index: -5;
+
+}
 
 #position1{
     position: absolute;
@@ -117,11 +128,21 @@ label{
 #position3{
     position: absolute;
     right: 30%;
-    top:25%;
+    top:20%;
     padding: 8px;
     border-left-style: solid;
     border-color: #4A4EB5;
     border-width: 8px;
+}
+#position4{
+    position: absolute;
+    left:10%;
+    top:20%;
+    padding: 8px;
+    border-left-style: solid;
+    border-color: #4A4EB5;
+    border-width: 8px;
+    color: #ffffff;
 }
 
 
@@ -154,15 +175,15 @@ label{
 
 #MedicoCompuImg{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left:13%;
-    height: 416px;
-    width: 411px;
+    height: 456px;
+    width: 451px;
     border-width: 0px;
     background-color: rgba(0,0, 0, 0);
     background-repeat: no-repeat;
     background-image: url(../imagenes/MedicoCompu.png);
-    background-size: 411px 416px;
+    background-size: 451px 456px;
     
 }
 
