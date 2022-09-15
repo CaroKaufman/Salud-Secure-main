@@ -6,18 +6,44 @@
     <link rel="stylesheet" href="../css/CrearReceta.css">
 </head>
 <body>
-    <div id=CrearReceta>
+
+    <header>
+        <label id="Txtlogo">BESMO</label>
+        <label id="headertitle"> Crear Receta </label>
+        <input id="logo"type="button">
+        
+    </header>
+    
+    <div class="background">
+    <div id=IngresarDatos >
+
+    <div class="smallheader">    
+    <label id="title1" class="titles">Ingresar datos del Paciente</label>
+    </div>
+    <br>
     <input placeholder="Nombre" class="txtbox">
     <br><br>
     <input placeholder="Apellido"class="txtbox">
     <br><br>
-    <input placeholder="credencial"class="txtbox">
-    <br><br>
     <input placeholder="DNI" class="txtbox" type="number">
     <br><br>
-    <input placeholder="medicamento"class="txtbox">
+    <input placeholder="credencial"class="txtbox">
     <br><br>
-    <input placeholder="indicaciones"class="txtbox">
+        
+    </div>
+    
+   
+    <div id="CrearReceta">
+        <div class="smallheader2">    
+        <label id="title2" class="titles">Crear Receta</label>
+        </div>
+        
+        <input placeholder="Tratamiento"class="txtbox"id="tratamiento">
+        
+        <br><br><br><br>
+        <textarea placeholder="Escribe las indicaciones aqui..." class="Bigtxtbox" id="indicaciones"  rows="4" cols="30"></textarea>
+        
+    </div>
     </div>
 </body>
 </html>
