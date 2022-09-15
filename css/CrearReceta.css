@@ -1,0 +1,26 @@
+body{
+    background-color: turquoise;
+}
+#CrearReceta{
+    position:absolute;
+    text-align: center;
+    left:40%;
+    top:20%;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+}
+
+.txtbox{
+    position: absolute;
+    top: 20%;
+    width: 150px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom-style: solid;
+    border-color: #3FADCF;
+    border-width: 2px;
+    padding: 10px 30px;
+    font-size: 18px;
+}
