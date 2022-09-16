@@ -64,12 +64,6 @@ p{
 }
 
 
-#mainMenuform{
-    position: absolute;
-    top: 20%;
-    left:20%
-}
-
 
 
 .ingresar {
@@ -158,50 +152,5 @@ p{
     background-position-y: 20%;
 }
 
-.bigBTN{
-    background-color: rgba(63, 173, 207);
-    border-radius: 40px;
-    border: 0px;
-    height: 410px;
-    width: 208px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    color: white;
-    font-size: 18px;
-    align-items: 20%;
-    background-image: url("../imagenes/SobreNosotros.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 208px 410px;
-}
-#btnPacientes{
-    background-color: rgba(63, 173, 207);
-    border-radius: 40px;
-    border: 0px;
-    height: 410px;
-    width: 208px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    color: white;
-    font-size: 18px;
-    background-image: url("../imagenes/MisPacientes.png");
-    background-repeat: no-repeat;
-    background-size: 208px 410px;
-    
-}
-#mainbuttonM{
-    background-color: #4A4EB5;
-    border-radius: 40px;
-    border: 0px;
-    height: 472px;
-    width: 293px;
-    color: white;
-    font-size: 18px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    background-image: url("../imagenes/CrearReceta.png");
-    background-position: center;
-    background-position-y: 100%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
+
 
