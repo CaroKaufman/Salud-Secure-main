@@ -56,12 +56,7 @@
     
 }
 
-.container{
-    
-    overflow: hidden;
-	width: 100%; 
-    
-}
+
 #minibuttonPosition{
     position: absolute;
     text-align: center;

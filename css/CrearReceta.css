@@ -43,8 +43,36 @@ header{
     
 }
 
+#LogOut{
+    position: absolute;
+    top:8%;
+    left: 80%;
+}
+#Usuario{
+    position: absolute;
+    top:3%;
+    left: 90%;
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../imagenes/imgUsuarioM.png");
+    background-size: 60px 60px;
+    background-color: rgba(0, 0, 0,0);
+    border-width: 0px;
+}
 
+.minibutton{
+    background-color: #B8EEFF;
+    border-radius: 30px;
+    color: #222222;
 
+    border: 0px;
+    width: 120px;
+    height: 54px;
+    font-size: 18px;
+    cursor: pointer;
+}
 
 #IngresarDatos{
     position:absolute;

@@ -49,11 +49,7 @@ header{
     color: rgb(0, 0, 0);
     
 }
-#Usuario{
-    position: absolute;
-    top:3%;
-    left: 90%;
-}
+
 
 #LogOut{
     position: absolute;
@@ -61,6 +57,9 @@ header{
     left: 80%;
 }
 #Usuario{
+    position: absolute;
+    top:3%;
+    left: 90%;
     width: 60px;
     height: 60px;
     background-position: center;

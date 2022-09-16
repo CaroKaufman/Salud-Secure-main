@@ -42,6 +42,30 @@ header{
     background-image: url(../imagenes/Logo-Header.png);
     
 }
+#LogOut{
+    position: absolute;
+    top:8%;
+    left: 80%;
+}
+#Usuario{
+    position: absolute;
+    top:3%;
+    left: 90%;
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../imagenes/imgUsuarioM.png");
+    background-size: 60px 60px;
+    background-color: rgba(0, 0, 0,0);
+    border-width: 0px;
+}
+
+.title{
+    font-family: Arial, sans-serif;
+    color: #222222;
+    font-size: 20px;
+}
 
 .minibutton{
     background-color: #B8EEFF;
@@ -49,25 +73,36 @@ header{
     color: #222222;
 
     border: 0px;
-    width: 172px;
+    width: 120px;
     height: 54px;
     font-size: 18px;
     cursor: pointer;
-    
-
 }
+.minibuttmed{
+    background-color: #B8EEFF;
+    border-radius: 30px;
+    color:#555555;
+    border: 0px;
+    width: 200px;
+    height: 54px;
+    font-size: 18px;
+    
+    cursor: pointer;
+    
+}
+
 .botmed{
     position: absolute;
     text-align: center;
     
-    top: 20%;
-    right: 80%;
-    left: 20%;
+    top: 25%;
+    
+    left: 29%;
     height: 400px;
     width: 270px;
-    border:4px solid #4A4EB5;
+    border:4px solid #3FADCF;
     border-radius: 40px;
-    
+    background-color: white;
     background-image: url("../imagenes/imgUsuarioM.png");
     background-position: center;
     background-size: 161px 161px;
@@ -77,16 +112,16 @@ header{
 }
 
 .botpac{
-    
+    position: absolute;
     text-align: center;
-    top: 20%;
-    right: 20%;
-    left: 60%;
+    top: 25%;
+    right: 27%;
+    
     height: 400px;
     width: 270px;
-    border:4px solid #4A4EB5;
+    border:4px solid #3FADCF;
     border-radius: 40px;
-
+    background-color: white;
     background-image: url("../imagenes/imgUsuarioP.png");
     background-position: center;
     background-size: 161px 161px;
