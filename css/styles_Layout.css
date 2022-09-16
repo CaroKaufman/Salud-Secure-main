@@ -1,62 +1,63 @@
-#logoIS{
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:rgb(236, 234, 234);
+}
+.titles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+#formIS{
+    background-color: #ffffff;
     position: absolute;
-    top:2%;
+    top:0%;
+    left: 50%;
+    width: 50%;
+    height: 1000px;
 }
-#ISbody{
-    background-color: rgba(184, 238, 255, 0.5);
-
-}
-.Rbody{
-    background-color: rgba(184, 238, 255, 0.5);
-
-}
-#MPbody{
-    background-color: rgba(245, 245, 245, 0.5);
-}
-.greyBody{
-    background-color: white(247, 247, 247, 0.5);
-}
-
-/*Layouts*/
-
-
-
-
-
-
-.header{
-  padding: 40px;
-  text-align: center;
-  background: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-#BtnSobreNos{
-    position: absolute;
-    top: 10%;
-    left:20%;
-}
-#BtnMain{
-    position: absolute;
-    top: 5%;
-    left:40%;
-}
-#BtnpacLayout{
-    position: absolute;
-    top: 10%;
-    left:80%;
-}
-.autoLayoutIS{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 122px 362px;
-    gap: 63px;
-
-    position: relative;
+.ingresar {
+    
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom-style: solid;
+    border-color: #3FADCF;
+    border-width: 2px;
+    padding: 10px 30px;
+    font-size: 20px;
     
 }
 
 
+
+#loginformM{
+    position: absolute;
+    top: 10%;
+    right:20%;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+   
+   
+
+}
+
+.minibutton{
+    background-color: #B8EEFF;
+    border-radius: 30px;
+    color: #222222;
+
+    border: 0px;
+    width: 180px;
+    height: 54px;
+    font-size: 18px;
+    cursor: pointer;
+}
 #minibuttonPosition{
     position: absolute;
     text-align: center;
@@ -65,25 +66,3 @@
     right: 70%;
 }
 
-.ingresarCol1{
-    position: absolute;
-    text-align: center;
-    top: 20%;
-    right: 70%;
-    left: 5%;
-    height: 200px;
-    width: 220px;
-    
-    /*border:4px solid #4A4EB5;
-    border-radius: 40px;*/
-}
-.ingresarCol2{
-    position: absolute;
-    text-align: center;
-    top: 20%;
-    left: 50%;
-    width: 220px;
-    
-    /*border:4px solid #4A4EB5;
-    border-radius: 40px;*/
-}
