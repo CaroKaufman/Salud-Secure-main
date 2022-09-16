@@ -43,79 +43,53 @@ header{
     
 }
 
-.titles{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    
-}
-#Usuario{
-    position: absolute;
-    top:3%;
-    left: 90%;
-}
-
-#LogOut{
-    position: absolute;
-    top:8%;
-    left: 80%;
-}
-#Usuario{
-    width: 60px;
-    height: 60px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("../imagenes/imgUsuarioM.png");
-    background-size: 60px 60px;
-    background-color: rgba(0, 0, 0,0);
-    border-width: 0px;
-}
 .minibutton{
     background-color: #B8EEFF;
     border-radius: 30px;
     color: #222222;
 
     border: 0px;
-    width: 120px;
+    width: 172px;
     height: 54px;
     font-size: 18px;
     cursor: pointer;
+    
+
 }
-#mainMenuform{
+.botmed{
     position: absolute;
+    text-align: center;
+    
     top: 20%;
-    left:20%;
-    
-}
-.bigBTN{
-    background-color: rgba(63, 173, 207);
+    right: 80%;
+    left: 20%;
+    height: 400px;
+    width: 270px;
+    border:4px solid #4A4EB5;
     border-radius: 40px;
-    border: 0px;
-    height: 410px;
-    width: 245px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    color: white;
-    font-size: 18px;
-    align-items: 20%;
+    
+    background-image: url("../imagenes/imgUsuarioM.png");
+    background-position: center;
+    background-size: 161px 161px;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
     
 }
-#sobreNosotros{
-    background-image: url("../imagenes/SobreNos.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 245px 410px;
+
+.botpac{
     
-}
-#crearReceta{
-    background-image: url("../imagenes/CrearReceta.png");
+    text-align: center;
+    top: 20%;
+    right: 20%;
+    left: 60%;
+    height: 400px;
+    width: 270px;
+    border:4px solid #4A4EB5;
+    border-radius: 40px;
+
+    background-image: url("../imagenes/imgUsuarioP.png");
     background-position: center;
+    background-size: 161px 161px;
     background-repeat: no-repeat;
-    background-size: 245px 410px;
-}
-#misPacientes{
-    background-image: url("../imagenes/misPacientes.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 245px 410px;
+    background-position-y: 20%;
 }
