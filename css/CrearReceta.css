@@ -3,23 +3,15 @@ body{
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(rgb(236, 236, 236), rgb(255, 255, 255),rgb(255, 255, 255));
+    background-color:rgb(236, 234, 234);
 }
-.background{
-    position: absolute;
-    left:20%;
-    background-image: linear-gradient(#85adb9, #B8EEFF, #B8EEFF);
-    
-    width: 850px;
-    height: 649px;
-}
+
 
 header{
     position: fixed;
     padding: 15px;
     text-align: center;
     background: #ffffff;
-    
     width: 100%;
     z-index: 9999;
     top: 0%;
@@ -57,11 +49,11 @@ header{
 #IngresarDatos{
     position:absolute;
     text-align: center;
-    left:10%;
+    left:25%;
     right: 45%;
-    top:15%;
+    top:18%;
     background-color: rgba(255, 255, 255,0.6);
-    width: 260px;
+    width: 270px;
     height: 500px;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
@@ -69,8 +61,8 @@ header{
 #CrearReceta{
     position:absolute;
     text-align: center;
-    right:10%;
-    top:15%;
+    right:25%;
+    top:18%;
     background-color: white;
     width: 400px;
     height: 500px;
@@ -80,7 +72,7 @@ header{
 
 .titles{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     
 }
@@ -96,10 +88,11 @@ header{
     left:35%;
 }
 .smallheader{
-    width: 260px;
+    width: 270px;
     height: 40px;
     border-top-left-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: #3FADCF;
+    
 }
 .smallheader2{
     width: 400px;
@@ -122,9 +115,9 @@ header{
     font-size: 18px;
 }
 .Bigtxtbox{
-    border-top-right-radius: 40px;
+    border-top-right-radius: 0px;
     border-top-left-radius: 0px;
-    border-bottom-left-radius: 40px;
+    border-bottom-left-radius: 0px;
     border-bottom-right-radius: 40px;
     border: 2px solid #3FADCF;
     font-size: 18px;
