@@ -190,3 +190,33 @@ label{
 
 
 
+/*Sobre Nosotros*/
+
+.bodySn{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:rgb(236, 234, 234);
+}
+.regresar{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff9f;
+    border-radius: 40px;
+    border-width: 0px;
+}
+#Iconregresar{
+    position: absolute;
+    top: 53.2%;
+    left: 16.4%;
+    font-size: 40px;
+}
+
+
+
+
+
