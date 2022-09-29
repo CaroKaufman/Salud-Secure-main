@@ -53,6 +53,9 @@
 .subrayado{
     text-decoration: underline;
 }
+.bold{
+    text-decoration: bold;
+}
 
 label{
 
@@ -198,6 +201,77 @@ label{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color:rgb(236, 234, 234);
+}
+#fixedbackground{
+    position: fixed;
+    left:0%;
+    margin: 0px;
+    height: 620px;
+    width: 1400px;
+    background-image: url("../imagenes/Backroundmeme.png");
+    z-index: -5;
+
+
+}
+#background5{
+    position: absolute;
+    left:0%;
+    top: 0%;
+    margin: 0px;
+    height: 620px;
+    width: 1400px;
+    background-color: #ffffff;
+    z-index: -5;
+
+
+}
+#position5{
+    position: absolute;
+    left:10%;
+    top:20%;
+
+}
+#stickman1{
+    position: absolute;
+    height: 426px;
+    width: 558px;
+    right:15%;
+    top:20%;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/stickman1.png);
+    background-size: 558px 426px;
+    
+}
+#background6{
+    position: absolute;
+    left:0%;
+    top: 200%;
+    margin: 0px;
+    height: 650px;
+    width: 1400px;
+    background-color: #ffffff;
+    z-index: -5;
+
+
+}
+#position6{
+    position: absolute;
+    left:10%;
+    top:20%;
+
+}
+#stickman2{
+    position: absolute;
+    height: 426px;
+    width: 558px;
+    right:15%;
+    top:20%;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/stickman2.png);
+    background-size: 558px 426px;
+    
 }
 .regresar{
     position: absolute;
