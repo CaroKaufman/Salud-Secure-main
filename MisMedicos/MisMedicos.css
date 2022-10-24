@@ -176,7 +176,18 @@ header{
     z-index: -99999;
 }
 
-
+#recetasM{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    background-color: #3FADCF;
+    border-radius: 10px;
+    width: 120px;
+    height:100px;
+    padding-left: 4%;
+    padding-top: 4%;
+    
+}
 
 
 

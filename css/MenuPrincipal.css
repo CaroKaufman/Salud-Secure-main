@@ -118,3 +118,13 @@ header{
     background-repeat: no-repeat;
     background-size: 245px 410px;
 }
+#misPacientes:hover{
+    box-shadow: inset 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+#crearReceta:hover{
+    box-shadow: inset 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+#sobreNosotros:hover{
+    
+    box-shadow: inset 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}

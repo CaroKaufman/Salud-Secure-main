@@ -1,10 +1,21 @@
-$(function() {
-    $(window).on("scroll", function() {
-        if($(window).scrollTop() > 50) {
-            $(".header").addClass("active");
-        } else {
-            //remove the background property so it comes transparent again (defined in your css)
-           $(".header").removeClass("active");
+$(document).ready(function() {
+
+   // $(function() {
+        $( "#button" ).click(function() {
+           // alert ("hola");
+          $( "#button" ).addClass( "onclic", 250, validate());
+        });
+      
+        function validate() {
+          setTimeout(function() {
+            $( "#button" ).removeClass( "onclic" );
+            $( "#button" ).addClass( "validate", 450, callback());
+          }, 2250 );
         }
-    });
+          function callback() {
+            setTimeout(function() {
+              $( "#button" ).removeClass( "validate" );
+            }, 1250 );
+          }
+    //    });
 });
