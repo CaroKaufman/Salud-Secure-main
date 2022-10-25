@@ -1,7 +1,13 @@
 $(document).ready(function() {
-  $("#receta").click(()=>{
+  $("#Izq").click(()=>{
     $( "#receta" ).removeClass( "recetaVisual" );
+    $( "#receta" ).removeClass( "recetaDer" );
     $("#receta").addClass("recetaIzq")
+  })
+  $("#Der").click(()=>{
+    $( "#receta" ).removeClass( "recetaVisual" );
+    $( "#receta" ).removeClass( "recetaIzq");
+    $("#receta").addClass("recetaDer")
   })
    // $(function() {
         $( "#button" ).click(function() {

@@ -115,6 +115,9 @@ header{
     color: rgb(102, 102, 102);
     cursor: pointer;
 }
+div{
+    overflow: hidden;
+}
 #recetasContainer{
     position:absolute;
     top: 15%;
@@ -123,21 +126,58 @@ header{
     width: 850px;
     height: 500px;
     border-radius: 30px;
+    overflow-x: scroll;
+    
+    
 }
 .recetaVisual{
     position: relative;
-    top: 10%;
+    top: 8%;
     left: 35%;
     width: 250px;
     height: 365px;
     background-color: rgb(240, 240, 240);
     border-radius: 20px;
 }
+#Izq{
+    position: absolute;
+    top: 82%;
+    left: 45%;
+    width: 55px;
+    height: 55px;
+    background-color: #ffffff9f;
+    border-radius: 20px;
+    
+    border-width: 0px;
+    cursor: pointer;
+}
+#Der{
+    position: absolute;
+    top: 82%;
+    right: 45%;
+    width: 55px;
+    height: 55px;
+    background-color: #ffffff9f;
+    border-radius: 20px;
+    
+    border-width: 0px;
+    cursor: pointer;
+}
 .recetaIzq{
     transition: .4s all ease;
     position: relative;
-    top: 10%;
-    left: 60%;
+    top: 8%;
+    left: 5%;
+    width: 250px;
+    height: 365px;
+    background-color:rgba(240, 240, 240,0.5);
+    border-radius: 20px;
+  }
+  .recetaDer{
+    transition: .4s all ease;
+    position: relative;
+    top: 8%;
+    left: 65%;
     width: 250px;
     height: 365px;
     background-color:rgba(240, 240, 240,0.5);
