@@ -1,5 +1,8 @@
 $(document).ready(function() {
-
+  $("#receta").click(()=>{
+    $( "#receta" ).removeClass( "recetaVisual" );
+    $("#receta").addClass("recetaIzq")
+  })
    // $(function() {
         $( "#button" ).click(function() {
            // alert ("hola");
@@ -17,5 +20,13 @@ $(document).ready(function() {
               $( "#button" ).removeClass( "validate" );
             }, 1250 );
           }
+
+
+
+          $( "#receta" ).click(function() {
+          
+            // alert ("hola");
+            $( "#receta" ).addClass( "recetaIzq");
+         });
     //    });
 });
