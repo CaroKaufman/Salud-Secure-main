@@ -127,8 +127,19 @@ div{
     height: 500px;
     border-radius: 30px;
     overflow-x: scroll;
-    
-    
+}
+#item1{
+    position: relative;
+    top: 14%;
+    left: 35%;
+}
+
+.receta{
+    flex-direction: row;
+    width: 250px;
+    height: 365px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
 }
 .recetaVisual{
     position: relative;
@@ -139,10 +150,26 @@ div{
     background-color: rgb(240, 240, 240);
     border-radius: 20px;
 }
+#lbl1{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+#lbl2{
+    position: relative;
+    top: 92%;
+    left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
 #Izq{
     position: absolute;
-    top: 82%;
-    left: 45%;
+    top: 50%;
+    left: 15%;
     width: 55px;
     height: 55px;
     background-color: #ffffff9f;
@@ -153,8 +180,8 @@ div{
 }
 #Der{
     position: absolute;
-    top: 82%;
-    right: 45%;
+    top: 50%;
+    right: 12%;
     width: 55px;
     height: 55px;
     background-color: #ffffff9f;
@@ -164,10 +191,6 @@ div{
     cursor: pointer;
 }
 .recetaIzq{
-    transition: .4s all ease;
-    position: relative;
-    top: 8%;
-    left: 5%;
     width: 250px;
     height: 365px;
     background-color:rgba(240, 240, 240,0.5);

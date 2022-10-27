@@ -1,13 +1,22 @@
 $(document).ready(function() {
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ $(".receta").css({transition: ".2s all ease"})
+  let izq = 300;
+  let der = 0;
   $("#Izq").click(()=>{
-    $( "#receta" ).removeClass( "recetaVisual" );
-    $( "#receta" ).removeClass( "recetaDer" );
-    $("#receta").addClass("recetaIzq")
+    izq -= 250;
+    $(".receta").css({"position": "relative", top: "14%", left: izq-der})
+  
   })
   $("#Der").click(()=>{
-    $( "#receta" ).removeClass( "recetaVisual" );
-    $( "#receta" ).removeClass( "recetaIzq");
-    $("#receta").addClass("recetaDer")
+    der -= 250;
+    $(".receta").css({"position": "relative", top: "14%", left: izq-der})
   })
    // $(function() {
         $( "#button" ).click(function() {
